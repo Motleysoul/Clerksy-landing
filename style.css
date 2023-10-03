@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    src: url(./assets/fonts/Recoleta-Bold.woff2);
+};
+@font-face {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/fonts/NotoSans.woff2);
+};
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #FBFAF7;
+}
+
+.page {
+  width: 1440px;
+  background-color: #FFF;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+.header-wrapper
+{
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 140px 20px 130px;
+  background-color: #163A24;
+}
+.user-menu{
+  display: flex;
+  gap: 24px;
+  font-size: 16px;
+}
+.user-link{
+  text-decoration: none;
+  color: #FBFAF7;
+}
