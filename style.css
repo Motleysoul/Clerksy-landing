@@ -18,14 +18,16 @@
 }
 
 .page {
-  width: 1440px;
+  max-width: 1440px;
+  padding: 0;
+  margin: 0;
   background-color: #FFF;
   font-family: "Noto Sans", sans-serif;
   font-size: 18px;
 }
 .header-wrapper
 {
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,10 +36,58 @@
 }
 .user-menu{
   display: flex;
+  align-items: center;
   gap: 24px;
   font-size: 16px;
 }
 .user-link{
   text-decoration: none;
   color: #FBFAF7;
+}
+.tel {
+  text-decoration: none;
+  color: #FBFAF7;
+}
+
+.btn{
+  height: 52px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 160px;
+background: #198C36;
+color: #FBFAF7;
+font-size: 16px;
+}
+
+.section-title{
+  font-family: "Recoleta", sans-serif;
+  font-size: 48px;
+  line-height: 54px;
+}
+
+.section-desc{
+line-height: 27px;
+}
+
+.promo{
+  padding: 120px 0 130px 130px;
+  margin-bottom: 120px;
+  background-color: #163A24;
+  color: #FBFAF7;
+  background-image: url(./assets/img/Promo.png);
+  background-repeat: no-repeat;
+  background-position: right 80px bottom;
+}
+.promo-wrapper{
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slogans{
+  margin: 0 130px;
+  color: #163A24;
+}
+.slogans-item{
+  display: flex;
 }
