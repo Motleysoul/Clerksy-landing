@@ -302,8 +302,64 @@ font-size: 28px;
 .subscr{
   display: flex;
   justify-content: space-around;
+  background: #F2EFE6;
   padding: 54px 130px 73px;
 }
-.subscr-input{
+.subscr-form{
   width: 590px;
+}
+.form {
+  display: flex;
+}
+.subscr-input{
+  padding: 0;
+  width: 553px;
+  height: 54px;
+  border-radius: 255px;
+border: 1px solid #F2EFE6;
+}
+
+.subscr-btn{
+  margin-left: -105px;
+  margin-top: 1px;
+}
+
+.page-footer{
+  padding: 40px 130px 24px;
+}
+
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #F2EFE6;
+  padding-bottom: 41px;
+}
+.footer-slogan{
+  font-family: "Recoleta", sans-serif;
+  color: #163A24;
+  font-size: 24px;
+  line-height: 36px;
+}
+.footter-social{
+  display: flex;
+  gap: 14px;
+}
+.footer-social-link{
+  text-decoration: none;
+}
+.footer-specification{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.specification-nav{
+  display: flex;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.specification-link{
+  color: #198C36;
+  text-decoration: none;
 }
