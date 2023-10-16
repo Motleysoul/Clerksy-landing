@@ -1,2 +1,2 @@
 # Clerksy-landing
-Landing page
+Landing page without adaptive and JS
