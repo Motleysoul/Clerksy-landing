@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    src: url(./assets/fonts/Recoleta-Bold.woff2);
+};
+@font-face {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/fonts/NotoSans.woff2);
+};
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  max-width: 1440px;
+  padding: 0;
+  margin: 0;
+  background-color: #FFF;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  color: #163A24;
+}
+.header-wrapper
+{
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 140px 20px 130px;
+  background-color: #163A24;
+}
+.user-menu{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 16px;
+}
+.user-link{
+  text-decoration: none;
+  color: #FBFAF7;
+}
+.tel {
+  text-decoration: none;
+  color: #FBFAF7;
+}
+
+.btn{
+  height: 52px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 160px;
+background: #198C36;
+color: #FBFAF7;
+font-size: 16px;
+}
+
+.section-title{
+  margin: 0;
+  font-family: "Recoleta", sans-serif;
+  font-size: 48px;
+  line-height: 54px;
+}
+
+.section-desc{
+line-height: 27px;
+}
+
+.promo{
+  padding: 120px 0 130px 130px;
+  margin-bottom: 120px;
+  background-color: #163A24;
+  color: #FBFAF7;
+  background-image: url(./assets/img/Promo.png);
+  background-repeat: no-repeat;
+  background-position: right 80px bottom;
+}
+.promo-wrapper{
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+}
+.promo-title{
+  line-height: 65px;
+}
+
+.slogans{
+  margin: 0 130px;
+  color: #163A24;
+  margin-bottom: 110px;
+}
+.slogans-item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.slogan-text {
+  width: 370px;
+}
+.partners{
+  margin: 0 130px 120px 130px;
+  color: #163A24;
+  text-align: center;
+}
+.icon-item{
+  margin-right: 86px;
+}
+.icon-item:last-child {
+  margin-right: 0;
+}
+
+.advantages{
+  padding: 66px 130px 130px;
+  background-color: #163A24;
+  color: #FBFAF7;
+  text-align: center;
+}
+.advantages-list{
+  display: flex;
+  list-style: none;
+}
+.advantages-item{
+  width: 295px;
+  display: flex;
+  gap: 28px;
+  padding: 0 50px 18px;
+  flex-direction: column;
+  align-items: center;
+}
+.employees{
+  padding: 114px 130px 135px 130px;
+  background: #F2EFE6;
+  color: #163A24;
+  text-align: center;
+}
+.slogan-second{
+  margin: 180px 130px 110px;
+  color: #163A24;
+}
+.help-divisions{
+  text-align: center;
+}
+.divisions-list{
+  display: flex;
+  gap: 40px;
+  width: 1180px;
+  margin: 0 auto;
+  margin-top: 18px;
+  margin-bottom: 120px;
+  list-style: none;
+  text-align: left;
+}
+.divisions-item{
+  width: 353px;
+  padding: 145px 0 66px 40px;
+  border-radius: 15px;
+background: #FBFAF7;
+box-shadow: 5px 5px 20px 0px #E9E4D5;
+}
+
+.divisions-item:first-child .divisions-title::before{
+  display: block;
+  width: 83px;
+  height: 75px;
+  position: absolute;
+  left: 0;
+  top: -98px;
+  content: "";
+  background-image: url('./assets/svg/shield.svg');
+  background-repeat: no-repeat;
+}
+
+.divisions-item:nth-child(2) .divisions-title::before{
+  display: block;
+  width: 83px;
+  height: 75px;
+  position: absolute;
+  left: 0;
+  top: -98px;
+  content: "";
+  background-image: url('./assets/svg/star.svg');
+  background-repeat: no-repeat;
+}
+
+.divisions-item:nth-child(3) .divisions-title::before{
+  display: block;
+  width: 83px;
+  height: 75px;
+  position: absolute;
+  left: 0;
+  top: -98px;
+  content: "";
+  background-image: url('./assets/svg/search.svg');
+  background-repeat: no-repeat;
+}
+
+.divisions-title{
+  position: relative;
+  margin: 0;
+  margin-bottom: 23px;
+  padding: 0;
+  font-family: "Recoleta", sans-serif;
+  font-size: 28px;
+}
+.divisions-item-list{
+  margin: 0;
+  padding: 0;
+  list-style: inside;
+}
+
+.divisions-point{
+  margin-bottom: 15px;
+}
+
+.steps{
+  padding: 120px 130px;
+  background: #F2EFE6;
+  text-align: center;
+}
+
+.steps-list{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 23px;
+  list-style: none;
+}
+
+.steps-item{
+  width: 265px;
+}
+.steps-item:first-child{
+  position: relative;
+  margin-right: 131px;
+}
+.steps-item:first-child::after{
+  position: absolute;
+  top: 32px;
+  left: 290px;
+  width: 75px;
+  height: 36px;
+  content: "";
+  background-image: url(./assets/svg/arrow_up.svg);
+}
+.steps-item:nth-child(2){
+  position: relative;
+  margin-right: 185px;
+}
+.steps-item:nth-child(2)::after{
+  position: absolute;
+  top: 32px;
+  left: 290px;
+  width: 75px;
+  height: 36px;
+  content: "";
+  background-image: url(./assets/svg/arrow_down.svg);
+}
+.steps-item:nth-child(3){
+  margin: -40px;
+  padding: 40px;
+  width: 285px;
+ background-image: url(./assets/svg/highlight.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.steps-desc{
+  display: block;
+  margin-bottom: 13px;
+  line-height: 27px;
+}
+.steps-numb{
+  display: block;
+  font-family: Recoleta;
+font-size: 28px;
+}
+
+.e-book{
+  padding: 256px 130px;
+  background-image: url(./assets/img/book.png);
+  background-repeat: no-repeat;
+  background-position: 720px 130px;
+}
+
+.e-book-wrapper{
+  width: 393px;
+}
+
+.callback{
+  padding-top: 114px;
+  padding-bottom: 124px;
+  color: #FBFAF7;
+  background: url(./assets/img/leafs-left.png) bottom left no-repeat, url(./assets/img/leafs-right.png) bottom right no-repeat, #163A24;
+}
+.callback-wrapper{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscr{
+  display: flex;
+  justify-content: space-around;
+  background: #F2EFE6;
+  padding: 54px 130px 73px;
+}
+.subscr-form{
+  width: 590px;
+}
+.form {
+  display: flex;
+}
+.subscr-input{
+  padding: 0;
+  width: 553px;
+  height: 54px;
+  border-radius: 255px;
+border: 1px solid #F2EFE6;
+}
+
+.subscr-btn{
+  margin-left: -105px;
+  margin-top: 1px;
+}
+
+.page-footer{
+  padding: 40px 130px 24px;
+}
+
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #F2EFE6;
+  padding-bottom: 41px;
+}
+.footer-slogan{
+  font-family: "Recoleta", sans-serif;
+  color: #163A24;
+  font-size: 24px;
+  line-height: 36px;
+}
+.footter-social{
+  display: flex;
+  gap: 14px;
+}
+.footer-social-link{
+  text-decoration: none;
+}
+.footer-specification{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.specification-nav{
+  display: flex;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.specification-link{
+  color: #198C36;
+  text-decoration: none;
+}
